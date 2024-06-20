@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image:url(images/fondo.png);
+}
+
+header {
+    padding: 1em 0
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+h3, h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+
+}
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a, .nav{
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  transition: all 300ms ease-in-out;
+  font-family: 'Oswald', sans-serif;
+
+}
+nav ul li a:hover{
+  color: rgb(187, 101, 40);
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Personajes grid */
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.grid div{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+}
+.grid div img{
+  width: 130px;
+  border-radius: 50%;
+}
+.name{
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+.gender, .species, .house{
+  color: black;
+  font-weight: 600;
+  
+}
